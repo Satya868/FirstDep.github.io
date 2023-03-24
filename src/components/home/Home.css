@@ -1,0 +1,50 @@
+
+.body{
+    width: 85.4rem;
+    height: 50vh;
+    background-color: aqua;
+   
+}
+.card1{
+    width: fit-content;
+}
+.body .card1 img{
+    height: 50vh;
+    width: 85.4rem;
+}
+.card1 img{
+    size: 100rem;
+}
+.body .card2 .text h3{
+    border-bottom: 0ex;
+    text-align: center;
+    color: antiquewhite;
+    background-color: white;
+    justify-content: center;
+}
+.body .card2 .text h3 h2{
+    color: antiquewhite;
+}
+.headlines   h1{
+    display: flex;
+    justify-content: center;
+   text-align: center;
+}
+.grid{
+    max-width: 120rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.6rem;
+}
+.card3{
+  box-sizing: border-box;  
+  background-color: rgb(160, 230, 230);
+  margin: auto;
+  width: 18rem;
+  height: 18rem;
+}
+.commt{
+    display: flex;
+    margin: 25rem;
+
+}

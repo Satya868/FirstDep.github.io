@@ -1,0 +1,42 @@
+.tabs{
+    display: flex;
+   max-width: 85.4rem;
+    align-items: center;
+    flex-direction: column;
+
+}
+.tabs .tabs2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.tabs .tabs2 h3{
+    margin-top: 1rem;
+    color: black;
+    padding-left: .8rem;
+    padding-right: .5rem;
+    color: whitesmoke;
+}
+.tab-leagues{
+    width: 12rem;
+    box-sizing: border-box;
+    background-color: rgb(15, 13, 13);
+    border-radius: .2rem;
+}   
+.tab-standings{
+    width: 12rem;
+    box-sizing: border-box;
+    background-color: rgb(15, 13, 13);
+    border-radius: .2rem;   
+    margin-left: 1rem;
+}
+.tab-standings  :hover{
+    cursor: pointer;
+}
+.tab-leagues :hover{
+    cursor: pointer;   
+}

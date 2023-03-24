@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+    padding: 0;
+    height: 10vh;
+  color: rgb(48, 148, 235);
+ 
+}
+.nav{
+    max-width: 85.4rem ;
+    background-color: rgb(26, 23, 23);
+    
+    display: flex;
+    flex-direction: row;  
+    font-size: 1.5rem;
+}
+.nav .link{
+    padding-top: 1rem;
+    padding-right: 5.2rem;
+    padding-left: 5.2rem;   
+}
+    
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-top: 1rem;
+}
+.nav ul li{
+    text-decoration: none;
+}
+
+.nav link{
+    list-style: none;
+    text-decoration: none;
+}  
